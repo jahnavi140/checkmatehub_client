@@ -6,18 +6,19 @@ const Dashboard = () => {
   const navigate = useNavigate();
   const [isEditing, setIsEditing] = useState(false);
   const [userProfile, setUserProfile] = useState({
-    name: 'Alexandra Botez',
-    email: 'alexandra.botez@chess.com',
+
+    name: 'Suchithra',
+    email: 'Suchithra@gmail.com',
+
     rating: 2100,
   });
 
   const profiles = [
-    { name: 'Magnus Carlsen', email: 'magnus.carlsen@chess.com', rating: 2850 },
-    { name: 'Hikaru Nakamura', email: 'hikaru.naka@chess.com', rating: 2750 },
-    { name: 'Judit Polgar', email: 'judit.polgar@chess.com', rating: 2735 },
-    { name: 'Hou Yifan', email: 'hou.yifan@chess.com', rating: 2650 },
-    { name: 'Viswanathan Anand', email: 'vishy.anand@chess.com', rating: 2756 },
-    { name: 'Alireza Firouzja', email: 'alireza.f@chess.com', rating: 2785 }
+
+    { name: 'Jahnavi', email: 'Jahnavi@gmail.com', rating: 2850 },
+    { name: 'Varshitha', email: 'Varshitha@gmail.com', rating: 2750 },
+    
+
   ];
 
   const handleProfileUpdate = (e) => {
